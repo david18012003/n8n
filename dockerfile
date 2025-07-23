@@ -1,10 +1,8 @@
+# Imagen base oficial de n8n
 FROM n8nio/n8n
 
-# Opcional: copiar archivo .env si lo tienes
-# COPY .env /home/node/
-
-# Exponer el puerto (Render lo detecta)
+# Exponer el puerto
 EXPOSE 5678
 
-# Comando para iniciar N8N
+# Comando de inicio
 CMD ["n8n"]
